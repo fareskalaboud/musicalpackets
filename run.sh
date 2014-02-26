@@ -1,3 +1,3 @@
 #!/bin/bash
 
-stdbuf -oL tcpdump -i wlan0 | python musicalpackets.py
+python main.py live
